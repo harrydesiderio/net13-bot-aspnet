@@ -7,10 +7,14 @@ using System.Configuration;
 using System.Linq;
 using System.Web;
 
+
 namespace SimpleBot
 {
-    public class SimpleBotUser
+    public static class SimpleBotUser
     {
+
+        //static IUserProfileRepository userProfile;
+
         public static string Reply(Message message)
         {
             SalvarHistorico(message);
